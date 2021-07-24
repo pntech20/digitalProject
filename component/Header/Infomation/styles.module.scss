@@ -1,0 +1,59 @@
+@import "../../../assets/scss/variables.module";
+.info{
+    .background{
+        width: 100%;
+        min-height: 800px;
+        background-image: url("../../../public/img/Hero1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        .description{
+            position: absolute;
+            top:50%;
+            height: 300px;
+            width: 50%;
+            padding-left: 50px;
+            color: $White;
+            .headerDes{
+                padding-top: 30px;
+                font-size: 50px;
+            }
+            .bodyDes{
+                width: 400px;   
+            }
+            .footerDes{
+                margin-top: 30px;
+                width: 200px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background-color:$Background ;
+                border-radius: 20px;
+                color: $MainDark;
+            }
+        }
+    } 
+    .experened{
+       margin: -200px auto;
+       color: $White;
+        .content{
+            margin: 0 auto;
+            width: 80%;
+            height: 400px;
+            background-image: url("../../../public/img/AboutUs.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            .text{
+                padding: 100px;
+                .textTitele{
+                    text-align: center;
+                    margin-bottom: 20px;
+                    font-size: 35px;
+                }
+                .textContent{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
