@@ -1,6 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Header } from "../component/Header";
+import { ExperienceClient } from "../component/ExperienceClient";
+import { Solutions } from "../component/Solutions";
+import { ProcessWork } from "../component/ProcessWork";
+import { OurProduct } from "../component/OurProduct";
+import { Testimonials } from "../component/Testimonials";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,6 +20,11 @@ export default function Home() {
         <div className="header">
           <Header />
         </div>
+        <ExperienceClient />
+        <Solutions />
+        <ProcessWork />
+        <OurProduct />
+        <Testimonials />
       </div>
     </div>
   );
