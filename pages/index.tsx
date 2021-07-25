@@ -17,6 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container-content">
+        <p className="uppercase ...">The quick brown fox ...</p>
+        <div className="cursor-pointer ...">Hover me</div>
+
         <div className="header">
           <Header />
         </div>

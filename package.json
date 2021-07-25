@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start:css":"npx tailwindcss-cli@latest build styles/tailwind.css -o styles/main.css"
   },
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^2.0.1",
