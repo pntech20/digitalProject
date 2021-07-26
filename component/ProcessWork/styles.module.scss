@@ -31,12 +31,30 @@
     
         
     }
-    .wrap{
-        margin-bottom: 10px;
-        .frame{
-           display: inline !important;
-           margin-left: 20px;
-         
-        }
-     }
+    .wrapImg{
+        position: relative;
+        .wrap{
+            margin-bottom: 10px;
+            .frame{
+               display: inline !important;
+               margin-left: 20px;
+             
+            }
+         }
+         .elipses{
+            position: absolute;
+            top: -40px;
+            right: 120px;
+         }
+         .dotGrid{
+            position: absolute;
+            bottom: 200px;
+            right: 120px;
+         }
+         .ellipse{
+            position: absolute;
+            top: 380px;
+            left:-30px;
+         }
+    }
 }

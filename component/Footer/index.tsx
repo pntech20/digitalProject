@@ -1,6 +1,11 @@
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import Rec from "../../public/img/DummyLogo1.png";
+import Rectangle from "../../public/img/Rectangle14.png";
+import DotGird from "../../public/img/dotGrid2.png";
+import DotGirdOne from "../../public/img/dotGrid3.png";
+import R16 from "../../public/img/Rec16.png";
+import R17 from "../../public/img/R17.png";
 export const Footer = () => {
   return (
     <div className={styles.containerFooter}>
@@ -29,11 +34,27 @@ export const Footer = () => {
               <div className={styles.item}>Instagram</div>
               <div className={styles.item}>Twitter</div>
             </div>
-            <div>10</div>
+            <div className={styles.choose}>
+              <div>
+                <Image src={Rectangle} alt="Rectangle" />
+              </div>
+              <div className={styles.imgDotGrid}>
+                <Image src={DotGird} alt="DotGird" />
+              </div>
+            </div>
           </div>
           <div className="col-span-2 ...">
             <div className={styles.copyright}>
               Copyright © 2021 Steelthemes. All Rights Reserved.
+              <div className={styles.imgDotGridOne}>
+                <Image src={DotGirdOne} alt="DotGirdOne" />
+              </div>
+              <div className={styles.r16}>
+                <Image src={R16} alt="rec" />
+              </div>
+              <div className={styles.r17}>
+                <Image src={R17} alt="rec" />
+              </div>
             </div>
           </div>
         </div>

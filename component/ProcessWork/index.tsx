@@ -5,6 +5,9 @@ import Frame3 from "../../public/img/Frame3.png";
 import Frame5 from "../../public/img/Frame5.png";
 import Frame6 from "../../public/img/Frame6.png";
 import Frame8 from "../../public/img/Frame8.png";
+import EllipseOne from "../../public/img/EllipseOne.png";
+import DotGrid from "../../public/img/DotGri.png";
+import Ellipse from "../../public/img/Ellipse4.png";
 export const ProcessWork = () => {
   return (
     <div className={styles.containerProcessWork}>
@@ -23,7 +26,7 @@ export const ProcessWork = () => {
             </div>
           </div>
         </GridItem>
-        <GridItem colSpan={2}>
+        <GridItem colSpan={2} className={styles.wrapImg}>
           <div className={styles.wrap}>
             <div className={styles.frame}>
               <Image src={Frame3} alt="frame" />
@@ -39,6 +42,15 @@ export const ProcessWork = () => {
             <div className={styles.frame}>
               <Image src={Frame8} alt="frame" />
             </div>
+          </div>
+          <div className={styles.elipses}>
+            <Image src={EllipseOne} alt="EllipseOne" />
+          </div>
+          <div className={styles.dotGrid}>
+            <Image src={DotGrid} alt="DotGrid" />
+          </div>
+          <div className={styles.ellipse}>
+            <Image src={Ellipse} alt="Ellipse" />
           </div>
         </GridItem>
       </Grid>

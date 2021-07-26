@@ -8,4 +8,25 @@
             width: 80%;
         }
     }
+    .buttons{
+        margin-top: 250px;
+    }
+    .wrapImg{
+        position: relative;
+        .dotGridOne{
+            position: absolute;
+            top: -50px;
+            right: -50px;
+        }
+        .elipses{
+            position: absolute;
+            top: 400px;
+            right: -50px;
+        }
+        .dotGri{
+            position: absolute;
+            top: -20px;
+            right: 0px;
+        }
+    }
 }

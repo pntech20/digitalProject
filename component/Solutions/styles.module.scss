@@ -5,6 +5,17 @@
         background-image: url("../../public/img/Photo.png");
         background-repeat: no-repeat;
         background-size: 555px 789px;
+        position: relative;
+        .ditGrid{
+        position: absolute;
+        top: -20px;
+        right: 10px;
+        }
+        .elipses{
+            position: absolute;
+            top: 320px;
+            left: -40px;
+        }
     }
     .textWho{
         margin-top: 20px !important;
@@ -18,10 +29,4 @@
         margin-top: -50px !important;
     }
 
-    .imgText{
-        .col-span-2{
-            margin-top: 30px !important;
-        }
-    }
-   
 }

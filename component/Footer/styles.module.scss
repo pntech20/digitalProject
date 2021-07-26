@@ -15,6 +15,7 @@
             }
         }
         .choose{
+            position: relative;
             margin-top: 50px;
             .item{
                 margin-top: 10px;
@@ -22,9 +23,30 @@
             .itemBold{
                 font-weight: bold;
             }
+            .imgDotGrid{
+              position: absolute;
+              top: 10px;
+              left: 20px;
+            }
         }
         .copyright{
+            position: relative;
             margin-top: 100px;
+            .imgDotGridOne{
+                position: absolute;
+                top: -80px;
+                left: -60px;
+              }
+              .r16{
+                position: absolute;
+                bottom: -30px;
+                right: 125px;
+              }
+              .r17{
+                position: absolute;
+                bottom: -60px;
+                right: -30px;
+              }
         }
     }
 }
