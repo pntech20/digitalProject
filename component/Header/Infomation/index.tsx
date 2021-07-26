@@ -6,7 +6,7 @@ export default function Infomation() {
   return (
     <>
       <Box px={4}>
-        <div className={styles.info}>
+        <div className={styles.containerInfo}>
           <div className={styles.background}>
             <div className={styles.description}>
               <div className={styles.headerDes}>Go digital with us</div>

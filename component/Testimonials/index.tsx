@@ -5,10 +5,10 @@ import Rec10 from "../../public/img/Rec10.png";
 
 export const Testimonials = () => {
   return (
-    <div className={styles.containerOurProduct}>
+    <div className={styles.containerTestimonials}>
       <Grid
         h="800px"
-        // templateRows="repeat(2, 1fr)"
+        templateRows="repeat(2, 1fr)"
         templateColumns="repeat(6, 1fr)"
         gap={4}
       >
@@ -18,7 +18,7 @@ export const Testimonials = () => {
         <GridItem colSpan={4}>
           <div className={styles.contentProcessContainer}>
             <div className={styles.description}>
-              <div className={styles.headerDes}>Testimonials by them</div>
+              <div className="text-3xl">Testimonials by them</div>
               <div className={styles.bodyDes}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

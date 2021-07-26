@@ -6,6 +6,7 @@ import { Solutions } from "../component/Solutions";
 import { ProcessWork } from "../component/ProcessWork";
 import { OurProduct } from "../component/OurProduct";
 import { Testimonials } from "../component/Testimonials";
+import { Footer } from "../component/Footer";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,9 +18,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container-content">
-        <p className="uppercase ...">The quick brown fox ...</p>
-        <div className="cursor-pointer ...">Hover me</div>
-
         <div className="header">
           <Header />
         </div>
@@ -28,6 +26,7 @@ export default function Home() {
         <ProcessWork />
         <OurProduct />
         <Testimonials />
+        <Footer />
       </div>
     </div>
   );

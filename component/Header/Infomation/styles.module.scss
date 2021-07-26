@@ -1,17 +1,15 @@
 @import "../../../assets/scss/variables.module";
-.info{
+.containerInfo{
     .background{
         width: 100%;
-        min-height: 800px;
+        min-height: 708px;
         background-image: url("../../../public/img/Hero1.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-
         .description{
-            position: absolute;
-            top:20%;
-            height: 300px;
-            width: 50%;
+            padding-top: 170px;
+            height: 274px;
+            min-width: 471px;
             padding-left: 50px;
             color: $White;
             .headerDes{
@@ -34,12 +32,12 @@
         }
     } 
     .experened{
-       margin: -200px auto;
+       margin: -163px auto;
        color: $White;
         .content{
             margin: 0 auto;
-            width: 80%;
-            height: 400px;
+            max-width:1039px ;
+            height: 326px;
             background-image: url("../../../public/img/AboutUs.png");
             background-repeat: no-repeat;
             background-size: 100% 100%;

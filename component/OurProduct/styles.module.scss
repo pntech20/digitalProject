@@ -1,0 +1,23 @@
+@import "../../assets/scss/variables.module";
+.containerOurProduct{
+    margin-top: -200px !important;
+    padding: 50px;
+    .content{
+        margin-bottom: 50px;
+        .mainText{
+            font-size: 35px;
+        }
+    }
+    .item{
+        .button{
+            margin-top: 10px;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color:$Background ;
+            border-radius: 20px;
+            color: $White;
+        }
+    }
+}

@@ -9,7 +9,7 @@ export const OurProduct = () => {
   return (
     <div className={styles.containerOurProduct}>
       <Grid templateColumns="repeat(6, 1fr)">
-        <GridItem colSpan={5}>
+        <GridItem colSpan={5} className={styles.content}>
           <div className={styles.headerOurProduct}>
             <div className={styles.tittle}>Our Product</div>
             <div className={styles.mainText}>
@@ -28,30 +28,30 @@ export const OurProduct = () => {
         </GridItem>
       </Grid>
 
-      <Grid templateColumns="repeat(6, 1fr)">
+      <Grid templateColumns="repeat(6, 1fr)" className={styles.item}>
         <GridItem colSpan={2} align="center">
           <div className={styles.a}>
             <Image src={Rec} alt="Rec" />
           </div>
-          <div className={styles.a}>PT. ABCDE</div>
-          <div className={styles.a}>Web Development</div>
-          <div className={styles.a}>See Details</div>
+          <div className="text-3xl">PT. ABCDE</div>
+          <div className={styles.text}>Web Development</div>
+          <div className={styles.button}>See Details</div>
         </GridItem>
         <GridItem colSpan={2} align="center">
           <div className={styles.a}>
             <Image src={Rec} alt="Rec" />
           </div>
-          <div className={styles.a}>PT. ABCDE</div>
-          <div className={styles.a}>Web Development</div>
-          <div className={styles.a}>See Details</div>
+          <div className="text-3xl">PT. ABCDE</div>
+          <div className={styles.text}>Web Development</div>
+          <div className={styles.button}>See Details</div>
         </GridItem>
         <GridItem colSpan={2} align="center">
           <div className={styles.a}>
             <Image src={Rec} alt="Rec" />
           </div>
-          <div className={styles.a}>PT. ABCDE</div>
-          <div className={styles.a}>Web Development</div>
-          <div className={styles.a}>See Details</div>
+          <div className="text-3xl">PT. ABCDE</div>
+          <div className={styles.text}>Web Development</div>
+          <div className={styles.button}>See Details</div>
         </GridItem>
       </Grid>
     </div>

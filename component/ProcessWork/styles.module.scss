@@ -1,29 +1,42 @@
 @import "../../assets/scss/variables.module";
-.contentProcessContainer{
-    position: relative;
-    .description{
-        position: absolute;
-        top:20%;
-        height: 300px;
-        width: 50%;
-        padding-left: 50px;
-        color: $Black;
-        .headerDes{
-            padding-top: 30px;
-            font-size: 50px;
+.containerProcessWork{
+    margin-top: 100px;
+    .contentProcessContainer{
+        .description{
+            height: 300px;
+            padding-left: 50px;
+            color: $Black;
+            margin-top: 100px;
+            .headerDes{
+                padding-top: 20px;
+                font-size: 50px;
+                width: 100%;
+                margin-bottom: 50px;
+            }
+            .bodyDes{
+                width: 90%;   
+                margin-bottom: 50px;
+            }
+            .footerDes{
+                margin-top: 30px;
+                width: 200px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background-color:$Background ;
+                border-radius: 20px;
+                color: $White;
+            }
         }
-        .bodyDes{
-            width: 400px;   
-        }
-        .footerDes{
-            margin-top: 30px;
-            width: 200px;
-            height: 40px;
-            line-height: 40px;
-            text-align: center;
-            background-color:$Background ;
-            border-radius: 20px;
-            color: $MainDark;
-        }
+    
+        
     }
+    .wrap{
+        margin-bottom: 10px;
+        .frame{
+           display: inline !important;
+           margin-left: 20px;
+         
+        }
+     }
 }

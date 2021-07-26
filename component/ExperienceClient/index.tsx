@@ -16,9 +16,9 @@ export const ExperienceClient = () => {
         </Text>
       </Box>
       <Box mt={10} align="center">
-        <Image src={Microsoft} className="microsoft" alt="microsoft" />
-        <Image src={Google} className="google" alt="google" />
-        <Image src={Zon} className="zon" alt="zon" />
+        <Image src={Microsoft} className={styles.microsoft} alt="microsoft" />
+        <Image src={Google} className={styles.google} alt="google" />
+        <Image src={Zon} className={styles.zon} alt="zon" />
       </Box>
     </Box>
   );
