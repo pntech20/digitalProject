@@ -1,8 +1,8 @@
-import { useCallback, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { ItemOurProduct } from "../../constant/interfaces";
 import Rec from "../../public/img/Rec.png";
-import Rectangle from "../../public/img/Rectangle.png";
 import Rec12 from "../../public/img/Rec12.png";
+import Rectangle from "../../public/img/Rectangle.png";
 export const useOurProduct = () => {
   const listOurProduct: ItemOurProduct[] = useMemo(
     () => [

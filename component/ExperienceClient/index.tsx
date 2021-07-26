@@ -1,9 +1,9 @@
-import { Box, Text, useDisclosure } from "@chakra-ui/react";
-import styles from "./styles.module.scss";
+import { Box, Text } from "@chakra-ui/react";
 import Image from "next/image";
-import Microsoft from "../../public/img/MaskGroup2.png";
-import Google from "../../public/img/MaskGroup1.png";
 import Zon from "../../public/img/MaskGroup.png";
+import Google from "../../public/img/MaskGroup1.png";
+import Microsoft from "../../public/img/MaskGroup2.png";
+import styles from "./styles.module.scss";
 export const ExperienceClient = () => {
   return (
     <Box px={4} className={styles.experienceContainer}>

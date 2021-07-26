@@ -1,12 +1,12 @@
-import { background, Box, Grid, GridItem, Spacer } from "@chakra-ui/react";
-import styles from "./styles.module.scss";
+import { Grid, GridItem, Spacer } from "@chakra-ui/react";
 import Image from "next/image";
-import Rec10 from "../../public/img/Rec10.png";
-import Left from "../../public/img/Left.png";
-import Right from "../../public/img/Right4.png";
+import DotGrid from "../../public/img/DotGri.png";
 import dotGridOne from "../../public/img/dotGridOne.png";
 import Ellipse from "../../public/img/Ellipse.png";
-import DotGrid from "../../public/img/DotGri.png";
+import Left from "../../public/img/Left.png";
+import Rec10 from "../../public/img/Rec10.png";
+import Right from "../../public/img/Right4.png";
+import styles from "./styles.module.scss";
 
 export const Testimonials = () => {
   return (

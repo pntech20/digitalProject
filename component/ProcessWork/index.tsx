@@ -1,13 +1,13 @@
-import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
-import styles from "./styles.module.scss";
+import { Grid, GridItem } from "@chakra-ui/react";
 import Image from "next/image";
+import DotGrid from "../../public/img/DotGri.png";
+import Ellipse from "../../public/img/Ellipse4.png";
+import EllipseOne from "../../public/img/EllipseOne.png";
 import Frame3 from "../../public/img/Frame3.png";
 import Frame5 from "../../public/img/Frame5.png";
 import Frame6 from "../../public/img/Frame6.png";
 import Frame8 from "../../public/img/Frame8.png";
-import EllipseOne from "../../public/img/EllipseOne.png";
-import DotGrid from "../../public/img/DotGri.png";
-import Ellipse from "../../public/img/Ellipse4.png";
+import styles from "./styles.module.scss";
 export const ProcessWork = () => {
   return (
     <div className={styles.containerProcessWork}>

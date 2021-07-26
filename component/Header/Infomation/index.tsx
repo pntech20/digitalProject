@@ -1,8 +1,6 @@
 import { Box, useDisclosure } from "@chakra-ui/react";
 import styles from "./styles.module.scss";
 export default function Infomation() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
   return (
     <>
       <Box px={4}>
