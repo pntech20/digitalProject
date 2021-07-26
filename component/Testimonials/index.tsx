@@ -45,7 +45,7 @@ export const Testimonials = () => {
                   <GridItem colSpan={3}></GridItem>
                   <GridItem colSpan={1}>
                     <Grid templateColumns="repeat(6, 1fr)">
-                      <Image src={Left} alt="left" />
+                      <Image src={Left} alt="Left" />
                       <Spacer />
                       <Image src={Right} alt="right" />
                     </Grid>
