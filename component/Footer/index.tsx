@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 import Image from "next/image";
 import Rec from "../../public/img/DummyLogo1.png";
 import Rectangle from "../../public/img/Rectangle14.png";
-import DotGird from "../../public/img/dotGrid2.png";
+import DotGird from "../../public/img/DotGrid2.png";
 import DotGirdOne from "../../public/img/dotGrid3.png";
 import R16 from "../../public/img/Rec16.png";
 import R17 from "../../public/img/R17.png";
